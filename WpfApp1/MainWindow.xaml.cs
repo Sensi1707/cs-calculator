@@ -115,5 +115,20 @@ namespace WpfApp1
                 calculationInput.Text = calculationInput.Text.Substring(0, calculationInput.Text.Length - 1);
             }
         }
+
+        private void dbTest_Click(object sender, RoutedEventArgs e)
+        {
+            string sql = "Select * From Professor Where PersNr = @MeineNummer";
+            Dictionary<string, object> dict = new Dictionary<string, object>
+            {
+                {"@MeineNummer", Convert.ToInt32(calculationInput.Text)}
+            };
+
+            Dapper dapper = new Dapper();
+            List<Professor> profs = new List<Professor>();
+            profs = dapper.readData<Professor>(sql, dict);
+
+            MessageBox.Show($"Hallo Herr {profs[0].Name}");
+        }
     }
 }

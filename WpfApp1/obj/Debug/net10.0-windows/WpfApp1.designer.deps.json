@@ -5,7 +5,39 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v10.0": {}
+    ".NETCoreApp,Version=v10.0": {
+      "Dapper/2.1.66": {
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.66.48463"
+          }
+        }
+      },
+      "System.Data.SQLite/2.0.2": {
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      }
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "Dapper/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
+    },
+    "System.Data.SQLite/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yAwxkraZf1PazyLg1sqMAlh4KEtaa2L8zieLicd9oWBybrb3SoPph+WVIyUTFWwtTVhNX/jNsDew6tbB8bw2xQ==",
+      "path": "system.data.sqlite/2.0.2",
+      "hashPath": "system.data.sqlite.2.0.2.nupkg.sha512"
+    }
+  }
 }

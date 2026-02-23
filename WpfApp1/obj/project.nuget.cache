@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "B/tRWjEyl5g=",
+  "dgSpecHash": "RPUwHQqbhx0=",
   "success": true,
   "projectFilePath": "C:\\Users\\SamiParlayan\\source\\repos\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SamiParlayan.AzureAD\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\SamiParlayan.AzureAD\\.nuget\\packages\\system.data.sqlite\\2.0.2\\system.data.sqlite.2.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

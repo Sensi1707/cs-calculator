@@ -27,6 +27,9 @@
             <RowDefinition Height="4*"/>
         </Grid.RowDefinitions>
         <!-- Input TextBox with Placeholder -->
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Button x:Name="dbtest" Click="dbTest_Click">dbtest abc</Button>
+        </Grid>
         <Grid Grid.Column="1" Grid.Row="0">
             <TextBox HorizontalAlignment="Stretch" VerticalAlignment="Center" x:Name="calculationInput" FontSize="24" TextAlignment="Center"/>
             <TextBlock IsHitTestVisible="False" Text="Calculate.." VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" Foreground="#FFBBBBBB">

@@ -18,3 +18,9 @@ C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\ref
 C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.pdb
 C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.genruntimeconfig.cache
 C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\ref\WpfApp1.dll
+C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\Dapper.dll
+C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\System.Data.SQLite.dll
+C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.sourcelink.json
+C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.csproj.Up2Date
+C:\Users\SamiParlayan\source\repos\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\03_Beispieldatenbank.db

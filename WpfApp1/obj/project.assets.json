@@ -1,11 +1,71 @@
 {
   "version": 3,
   "targets": {
-    "net10.0-windows7.0": {}
+    "net10.0-windows7.0": {
+      "Dapper/2.1.66": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Data.SQLite/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dapper/2.1.66": {
+      "sha512": "/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "type": "package",
+      "path": "dapper/2.1.66",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.66.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net8.0/Dapper.dll",
+        "lib/net8.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
+    "System.Data.SQLite/2.0.2": {
+      "sha512": "yAwxkraZf1PazyLg1sqMAlh4KEtaa2L8zieLicd9oWBybrb3SoPph+WVIyUTFWwtTVhNX/jNsDew6tbB8bw2xQ==",
+      "type": "package",
+      "path": "system.data.sqlite/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.1/System.Data.SQLite.dll",
+        "system.data.sqlite.2.0.2.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0-windows7.0": []
+    "net10.0-windows7.0": [
+      "Dapper >= 2.1.66",
+      "System.Data.SQLite >= 2.0.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\SamiParlayan.AzureAD\\.nuget\\packages\\": {}
@@ -51,6 +111,16 @@
     "frameworks": {
       "net10.0-windows7.0": {
         "targetAlias": "net10.0-windows",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.66, )"
+          },
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
